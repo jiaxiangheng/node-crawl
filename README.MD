@@ -1,3 +1,6 @@
-`npm install request cheerio debug async mongoose cron iconv-lite -S`
+##安装依赖
+`npm install`
 
 ##爬虫
+基于node环境运行
+`node server.js`
