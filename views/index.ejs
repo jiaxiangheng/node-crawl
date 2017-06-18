@@ -1,0 +1,30 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="clo-sm-12">
+            <div class="panel panel-default">
+                <div class="panel-heading text-center">
+                    珠峰电影
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                            <%movies.forEach(function (movie) {%>
+                        <li class="list-group-item"><a href="<%=movie.url%>"><%=movie.name%></a></li>
+                            <%})%>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
